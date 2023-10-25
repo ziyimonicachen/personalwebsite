@@ -4,28 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ziyi (Monica) Chen's Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello! I'm Monica, welcome to my website!</h1>
-    <div></div>
-    <img width="400" src="C:\Users\monic\OneDrive\Documents\AppDevClub\personal_website\professional photo.JPG">
-    <div></div>
+    <div id="topSection">
+        <h1 id="title" class="header">Hello! I'm Monica, welcome to my website!</h1>
+    </div>
     <a href="https://www.linkedin.com/in/ziyichen03/">
-        <button>Check out my LinkedIn!</button>
+        <button class="buttons">Check out my LinkedIn!</button>
     </a>   
+    <div id="container">
+        
+    </div>
 
-    <h2>About Me</h2>
-    <p>
-        I am a junior at the University of Maryland - College Park, pursuing a double degree in Computer Science and Operations Management & Business Analytics. 
-        I have experience with Java, Ruby, OCaml, Python, and C programming. I am thoughtful, detail-oriented, and curious. I constantly seek opportunities to 
-        learn and grow, take part in meaningful projects, and add new skills into my skillset. In a workspace, I will provide logical and efficient solutions 
-        using data manipulation skills from business and troubleshooting skills from computer science. Let's get to know each other!
-    </p>
+    <div class="image" id="mainPagePic">
+        <img width="400" src="C:\Users\monic\OneDrive\Documents\AppDevClub\personal_website\professional photo.JPG">
+    </div>
+    <div class="sections" id="aboutMe">
+        <h2 class="header">About Me</h2>
+        <p style="line-height: 2;">
+            I am pursuing a double degree in Operations Management & Business Analytics and Computer Science 
+            and have experience with Java, C programming, Python, Ruby, and OCaml. I am thoughtful, detail-oriented, 
+            and mathematically inclined. I am constantly seeking opportunities to learn and grow, work on meaningful 
+            projects, add skills into my skillset. In a workspace, I will provide logical and efficient solutions 
+            using data manipulation skills from business and troubleshooting skills from computer science. Outside 
+            of academics, I am actively involved in many dance clubs around the campus, and I love dancing to K-pop,
+             Jazz, and I recently picked up Chinese traditional dance.
+        </p>
+    </div>
 
-    <h2>Contact information</h2>
-    <p>You can reach me via phone or email!
-        <div>Phone: (240)660-1762</div>
-        <div>Email: ziyichen.edu@gmail.com</div>    
-    </p>
+    <div class="sections" id="skills">
+        <h2 class="header">Skills</h2>
+        <div class="column"  id="left">
+            <h3 class="header">Programming languages</h3>
+            <div>
+                <p style="line-height: 1.5;">
+                    - Java
+                    <br>
+                    - C
+                    <br>
+                    - Ruby
+                    <br>
+                    - OCaml
+                    <br>
+                    - HTML
+                    <br>
+                    - CSS
+                    <br>
+                    - JavaScript
+                    <br>
+                    - Python
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="column">
+            <h3 class="header">Platforms</h3>
+            <div id="rightCol">
+                <p style="line-height: 1.5;">
+                    - GitHub
+                    <br>
+                    - Figma
+                    <br>
+                    - VS Code
+                    <br>
+                    - Eclipse
+                    <br>
+                    - Excel
+                    <br>
+                    - Microsoft Office
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="sections" id = "courses" style="line-height: 1.5;">
+        <h2 class="header">Courses Taken</h2>
+        <p id="course">
+            Data Structures <br>Data Science <br> Programming Languages <br> Algorithms
+            <br>Computer Systems <br>Discrete Structures <br>Object-Oriented Programming
+            <br>Managing People and Organizations <br> Information Systems <br> Statistics
+        </p>
+    </div>
+
+    <div class="sections" id="contact" style="line-height: 1.5;">
+        <h2 class="header">Contact information</h2>
+        <p>You can reach me via phone or email!
+            <br>
+            Phone: (240)660-1762
+            <br>
+            Email: ziyichen.edu@gmail.com
+        </p>
+    </div>
+    
 </body>
 </html>
